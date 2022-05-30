@@ -1,4 +1,4 @@
-/* colors */
+                                              /* colors */
 
 :root {
   --title-color: rgb(33, 33, 33);
@@ -12,7 +12,7 @@
   --border-image-color: rgb(238, 238, 238);
 }
 
-/* main styles */
+                                       /* main styles */
 
 body {
   color: var(--text-color);
@@ -32,7 +32,7 @@ a {
   text-decoration: none;
 }
 
-/* Containers */
+                                      /* Containers */
 
 
 
@@ -76,7 +76,7 @@ a {
 
 
 
-/* Current link */
+                                      /* Current link */
 
 .item-logo {
   padding-bottom: 25px;
@@ -87,25 +87,12 @@ a {
     margin-left: 50px;
 }
 
-.navigation-links {
-  margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px
-}
-
-
-
-
-.navigation-links {
-  margin-right: 0;
-}
 
 .navigation .current-link {
   color: var(--accent-color);
-  
 }
 
-/* LOGO */
+                                               /* LOGO */
 
 .header-logo,
 .footer-logo {
@@ -145,7 +132,7 @@ a {
 }
 
 
-/* navigation links */
+                                            /* navigation links */
 
 .navigation {
   display: flex;
@@ -159,6 +146,9 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em; 
+  margin-right: 0;
+  padding-top: 32px;
+    padding-bottom: 32px
 }
 
 .navigation-links:hover,
@@ -166,7 +156,7 @@ a {
   color: var(--accent-color);
 }
 
-/* Contact links */
+                                       /* Contact links */
 
 .contact {
   display: flex;
@@ -190,9 +180,9 @@ a {
   color: var(--accent-color);
 }
 
-/* INDEX.HTML 
 
-Maim Page - HERO */
+
+                      /*     INDEX.HTML        Maim Page - HERO */
 
 .hero {
   background-color: var(--h1-background-color);
@@ -276,7 +266,7 @@ flex-basis: 270px;
   margin-top: 10px;
 }
 
-/* We do & team members */
+                                     /* We do & team members */
 
 .section-we-do {
   padding-top: 94px;
@@ -341,7 +331,7 @@ margin: 0;
   margin: 0;
 }
 
-/* Footer - address and contact links */
+                         /* Footer - address and contact links */
 
 .footer {
   background-color: var(--h1-background-color);
@@ -382,6 +372,8 @@ font-style: normal;
   color: var(--footer-text-color);
 
 }
+
+                                /* PORTFOLIO */
 
 .projects {
   padding-top: 94px;
@@ -483,7 +475,6 @@ font-style: normal;
   letter-spacing: 0.06em;
   color: var(--title-color);
   margin: 0;
-  
 }
 
 
@@ -492,5 +483,4 @@ font-style: normal;
   line-height: 1.9;
   margin-top: 4px;
 margin-bottom: 0;
-
 }
