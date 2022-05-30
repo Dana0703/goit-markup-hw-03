@@ -1,4 +1,4 @@
-                                              /* colors */
+/* colors */
 
 :root {
   --title-color: rgb(33, 33, 33);
@@ -12,7 +12,7 @@
   --border-image-color: rgb(238, 238, 238);
 }
 
-                                       /* main styles */
+/* main styles */
 
 body {
   color: var(--text-color);
@@ -32,7 +32,8 @@ a {
   text-decoration: none;
 }
 
-                                      /* Containers */
+
+/* Containers */
 
 
 
@@ -76,7 +77,7 @@ a {
 
 
 
-                                      /* Current link */
+/* Current link */
 
 .item-logo {
   padding-bottom: 25px;
@@ -92,7 +93,7 @@ a {
   color: var(--accent-color);
 }
 
-                                               /* LOGO */
+/* LOGO */
 
 .header-logo,
 .footer-logo {
@@ -120,7 +121,7 @@ a {
 }
 
 .footer-logo-part {
-    font-family: 'raleway', sans-serif;
+  font-family: 'raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
@@ -132,7 +133,7 @@ a {
 }
 
 
-                                            /* navigation links */
+/* navigation links */
 
 .navigation {
   display: flex;
@@ -148,7 +149,7 @@ a {
   letter-spacing: 0.02em; 
   margin-right: 0;
   padding-top: 32px;
-    padding-bottom: 32px
+  padding-bottom: 32px
 }
 
 .navigation-links:hover,
@@ -156,7 +157,7 @@ a {
   color: var(--accent-color);
 }
 
-                                       /* Contact links */
+/* Contact links */
 
 .contact {
   display: flex;
@@ -177,12 +178,12 @@ a {
 .contact-links-footer:hover,
 .contact-links-header:focus,
 .contact-links-footer:focus {
-  color: var(--accent-color);
+color: var(--accent-color);
 }
 
 
 
-                      /*     INDEX.HTML        Maim Page - HERO */
+/*     INDEX.HTML        Maim Page - HERO */
 
 .hero {
   background-color: var(--h1-background-color);
@@ -266,7 +267,7 @@ flex-basis: 270px;
   margin-top: 10px;
 }
 
-                                     /* We do & team members */
+/* We do & team members */
 
 .section-we-do {
   padding-top: 94px;
@@ -331,7 +332,7 @@ margin: 0;
   margin: 0;
 }
 
-                         /* Footer - address and contact links */
+/* Footer - address and contact links */
 
 .footer {
   background-color: var(--h1-background-color);
@@ -373,11 +374,11 @@ font-style: normal;
 
 }
 
-                                /* PORTFOLIO */
+/* PORTFOLIO */
 
 .projects {
   padding-top: 94px;
-    padding-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .projects-filter {
@@ -452,6 +453,9 @@ font-style: normal;
 
 
 /* our works images */
+
+
+
 .project-img-title {
   font-size: 18px;
   font-weight: 700;
